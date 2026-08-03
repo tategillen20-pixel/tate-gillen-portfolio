@@ -16,7 +16,7 @@ Open `index.html` in any modern browser. No installation or local server is requ
 
 Search the site for these placeholders and replace them before launch:
 
-- `YOUR_DOMAIN` in the Open Graph metadata
+- Production metadata uses `https://tategillen.netlify.app`
 - Replace `assets/tate-gillen-resume.pdf` whenever the resume is updated; the site opens it in a new browser tab
 - Project cards and case studies use lightweight conceptual HTML/CSS illustrations, with inline SVG where useful. They do not depend on screenshot files or image galleries.
 - `assets/favicon-placeholder.svg` and `assets/og-image-placeholder.svg` with final brand assets
