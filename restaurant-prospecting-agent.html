@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Case study for Tate Gillen's Restaurant Prospecting Agent.">
+  <title>Restaurant Prospecting Agent | Tate Gillen</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.23/dist/lenis.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html#top"><span class="brand-mark" aria-hidden="true">TG</span><span>Tate Gillen</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span class="sr-only">Open navigation menu</span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+      <div class="nav-links" id="nav-links"><a href="index.html#about">About</a><a href="index.html#projects">Projects</a><a href="index.html#skills">Skills</a><a href="index.html#contact">Contact</a></div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="case-hero">
+      <div class="container"><a class="back-link" href="index.html#projects">← Back to Projects</a><p class="eyebrow">Project case study · Sales intelligence</p><h1>Restaurant Prospecting Agent</h1><p class="case-hero-copy">An AI-powered sales intelligence application that helps POS sales representatives identify new restaurant openings and research existing restaurant prospects.</p></div>
+    </section>
+
+    <section class="section case-study-body">
+      <div class="container case-layout">
+        <article class="case-content">
+          <section class="case-concept-block" aria-labelledby="restaurant-concept-title">
+            <div class="case-visual-heading"><p class="section-label">Product concept</p><h2 id="restaurant-concept-title">From local discovery to qualified sales lead</h2></div>
+            <div class="case-concept case-concept-restaurant" role="img" aria-label="Restaurant discovery flows through location and opening research into qualification and a structured sales lead">
+              <div class="concept-flow-node"><span class="case-icon restaurant-icon" aria-hidden="true"></span><strong>Discovery</strong><small>Restaurant signals</small></div><span class="flow-arrow" aria-hidden="true">→</span>
+              <div class="concept-flow-node"><span class="case-icon location-icon" aria-hidden="true"></span><strong>Location + opening</strong><small>Market context</small></div><span class="flow-arrow" aria-hidden="true">→</span>
+              <div class="concept-flow-node"><span class="case-icon qualify-icon" aria-hidden="true"></span><strong>Qualification</strong><small>Opportunity fit</small></div><span class="flow-arrow" aria-hidden="true">→</span>
+              <div class="concept-flow-node concept-output-node"><span class="case-icon lead-icon" aria-hidden="true"></span><strong>Sales lead</strong><small>Structured output</small></div>
+            </div>
+          </section>
+
+          <section><p class="section-label">Project overview</p><h2>Finding stronger restaurant prospects faster</h2><p>The application brings prospect discovery and research into one focused workflow so sales representatives can spend less time switching between sources and more time acting on useful information.</p></section>
+          <section><p class="section-label">Business problem</p><h2>Prospecting is fragmented and time-intensive</h2><p>New restaurant openings can be difficult to identify early, while researching existing prospects often requires repetitive searches across maps, websites, and business listings.</p></section>
+          <section><p class="section-label">Intended users</p><h2>POS sales representatives and sales teams</h2><p>The tool is designed for representatives who need a repeatable way to build restaurant prospect lists, understand each business, and prepare for relevant outreach.</p></section>
+          <section><p class="section-label">Solution</p><h2>A single AI-assisted research workflow</h2><p>Users can identify potential openings, search known restaurants, and turn available place and web information into concise, structured prospect intelligence.</p></section>
+
+          <section class="case-feature-section" aria-labelledby="restaurant-workflow-title">
+            <p class="section-label">How the system works</p><h2 id="restaurant-workflow-title">A repeatable path from market to outreach</h2>
+            <ol class="system-workflow" aria-label="Restaurant Prospecting Agent workflow">
+              <li><span class="workflow-number">01</span><span class="workflow-mini-icon discover-mini" aria-hidden="true"></span><div><h3>Define the market</h3><p>Enter a market or restaurant to research.</p></div></li>
+              <li><span class="workflow-number">02</span><span class="workflow-mini-icon research-mini" aria-hidden="true"></span><div><h3>Discover signals</h3><p>Retrieve relevant place and business data.</p></div></li>
+              <li><span class="workflow-number">03</span><span class="workflow-mini-icon evaluate-mini" aria-hidden="true"></span><div><h3>Qualify prospects</h3><p>Use AI to organize findings into sales-ready context.</p></div></li>
+              <li><span class="workflow-number">04</span><span class="workflow-mini-icon brief-mini" aria-hidden="true"></span><div><h3>Structure the lead</h3><p>Review the structured output and prioritize follow-up.</p></div></li>
+            </ol>
+          </section>
+
+          <section class="case-feature-section" aria-labelledby="restaurant-output-title">
+            <p class="section-label">What the output includes</p><h2 id="restaurant-output-title">Sales-ready context, organized consistently</h2>
+            <div class="output-grid">
+              <article><span aria-hidden="true">⌖</span><h3>Location Context</h3><p>Market, address, place details, and relevant local signals.</p></article>
+              <article><span aria-hidden="true">◷</span><h3>Opening Intelligence</h3><p>Available evidence about new locations and opening timelines.</p></article>
+              <article><span aria-hidden="true">◎</span><h3>Opportunity Fit</h3><p>A consistent view of why a restaurant may be worth pursuing.</p></article>
+              <article><span aria-hidden="true">↗</span><h3>Outreach Context</h3><p>Useful business information for preparing a relevant conversation.</p></article>
+            </div>
+          </section>
+
+          <section><p class="section-label">Core design challenge</p><h2>Useful output from uneven source data</h2><p>The workflow reduces manual source switching, turns inconsistent business information into a consistent format, and keeps the final result readable for a sales user.</p></section>
+
+          <section class="case-feature-section" aria-labelledby="restaurant-decisions-title">
+            <p class="section-label">Key design decisions</p><h2 id="restaurant-decisions-title">Built for practical sales research</h2>
+            <div class="decision-list">
+              <article><span>01</span><div><h3>Start with the territory</h3><p>Keep discovery grounded in the market a representative actually owns.</p></div></article>
+              <article><span>02</span><div><h3>Evidence before qualification</h3><p>Organize place and opening information before assessing opportunity fit.</p></div></article>
+              <article><span>03</span><div><h3>Consistent lead structure</h3><p>Present every prospect in a repeatable format that is easy to scan.</p></div></article>
+              <article><span>04</span><div><h3>Support the seller</h3><p>Provide useful context without automating the relationship or outreach decision.</p></div></article>
+            </div>
+          </section>
+
+          <section><p class="section-label">What I would build next</p><h2>More signals and stronger workflow integration</h2><p>Future versions could add scheduled market monitoring, CRM export, prospect scoring, duplicate detection, and feedback loops that improve prioritization.</p></section>
+        </article>
+
+        <aside class="case-sidebar"><h2>Built With</h2><ul class="tag-list"><li>Python</li><li>Streamlit</li><li>OpenAI API</li><li>Google Places API</li></ul><a class="button button-primary" href="https://integrity-pos-agent.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a><a class="button" href="https://github.com/tategillen20-pixel/restaurant-prospecting-agent" target="_blank" rel="noopener noreferrer">GitHub ↗</a></aside>
+      </div>
+    </section>
+
+    <section class="case-closing-section"><div class="container"><div class="case-closing-panel"><div><p class="section-label">Continue exploring</p><h2>Explore the project</h2><p>Open the working application or review the source code to see how the project was built.</p></div><div class="case-closing-actions"><a class="button button-primary" href="https://integrity-pos-agent.streamlit.app/" target="_blank" rel="noopener noreferrer">View Live Demo ↗</a><a class="button button-secondary" href="https://github.com/tategillen20-pixel/restaurant-prospecting-agent" target="_blank" rel="noopener noreferrer">View GitHub ↗</a><a class="button button-secondary" href="index.html#projects">Back to Projects ←</a></div></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-content"><p>© 2026 Tate Gillen</p><a href="index.html#projects">Back to Projects ↑</a></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script><script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script><script src="script.js"></script>
+</body>
+</html>
